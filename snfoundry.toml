@@ -1,0 +1,16 @@
+[sncast.testnet]
+account="__default__"
+network = "testnet"
+url = "http://192.168.1.45:5235"
+
+[sncast.sepolia]
+keystore="/home/amanusk/starkli-accounts/sepolia/sepolia-keystore.json"
+account="/home/amanusk/starkli-accounts/sepolia/sepolia-account.json"
+network = "sepolia"
+url = "http://192.168.1.45:9235"
+
+[sncast.devnet]
+account="devnet-rs"
+network = "testnet"
+url = "http://127.0.0.1:5050"
+
